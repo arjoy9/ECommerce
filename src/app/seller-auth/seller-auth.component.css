@@ -1,0 +1,18 @@
+.sign-up, .login{
+    text-align: center;
+}
+
+.sign-up h1, .login h1{
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: blueviolet;
+}
+
+.auth-flip-link{
+    margin-top: 20px;
+    color: blueviolet;
+    font-size: 16px;
+    font-weight: bold;;
+    text-align: left;
+    cursor: pointer;
+}

@@ -1,0 +1,103 @@
+{
+  "seller": [
+    {
+      "name": "AR JOY",
+      "email": "a@gmail.com",
+      "password": "a@123",
+      "id": 1
+    },
+    {
+      "name": "Nila",
+      "email": "n@gmail.com",
+      "password": "a@123",
+      "id": 2
+    },
+    {
+      "name": "sabbir",
+      "password": "123456",
+      "email": "s@gmail.com",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "name": "IPhone 14",
+      "price": "60000",
+      "color": "Blue",
+      "category": "Mobiles",
+      "description": "Latest phone for youth",
+      "image": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Purple-6116.jpg",
+      "id": 1
+    },
+    {
+      "name": "realme 10 pro",
+      "price": "100000",
+      "color": "Sky Blue",
+      "category": "Mobile",
+      "description": "Good",
+      "image": "https://www.gizmochina.com/wp-content/uploads/2022/11/Realme-10-China-Telecom.png",
+      "id": 2
+    },
+    {
+      "name": "hp elitebook",
+      "price": "80000",
+      "color": "White",
+      "category": "Laptop",
+      "description": "Good",
+      "image": "https://www.pngitem.com/pimgs/m/13-132423_hp-elitebook-x360-1030-g3-hd-png-download.png",
+      "id": 3
+    },
+    {
+      "name": "hp elitebook 10",
+      "price": "100000",
+      "color": "White",
+      "category": "Laptop",
+      "description": "very Good",
+      "image": "https://w7.pngwing.com/pngs/355/984/png-transparent-hp-elitebook-1040-g3-hewlett-packard-laptop-hp-elitebook-1040-g4-hewlett-packard-gadget-netbook-computer-thumbnail.png",
+      "id": 4
+    },
+    {
+      "name": "HP Dragonfly Folio 13.5",
+      "price": "100000",
+      "color": "White",
+      "category": "Laptop",
+      "description": "Awesome",
+      "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08281209.png?imwidth=270&imdensity=1",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "name": "joy",
+      "email": "joy@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "raj",
+      "email": "raj@gmail.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "sona",
+      "email": "sona@user.com",
+      "password": "123456",
+      "id": 3
+    }
+  ],
+  "cart": [
+    {
+      "name": "HP Dragonfly Folio 13.5",
+      "price": "100000",
+      "color": "White",
+      "category": "Laptop",
+      "description": "Awesome",
+      "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08281209.png?imwidth=270&imdensity=1",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 5,
+      "id": 1
+    }
+  ]
+}
