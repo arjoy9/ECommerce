@@ -15,6 +15,7 @@ export class ProductDetailsComponent implements OnInit {
   productQuantity:number=1;
   quantity:number=1;
   removeCart=false;
+  removeCartData:product |undefined;
   constructor(private activeRoute:ActivatedRoute, private ps:ProductService){}
   ngOnInit(): void {
     let productId = this.activeRoute.snapshot.paramMap.get('productId');
@@ -34,6 +35,19 @@ export class ProductDetailsComponent implements OnInit {
         else{
           this.removeCart=false;
         }
+      }
+
+      let user = localStorage.getItem('user');
+      if (user) {
+        let userId = user && JSON.parse(user).id;
+        this.ps.getCartList(userId);
+        this.ps.cartData.subscribe((result)=>{
+        let item = result.filter((item:product)=>productId?.toString()===item.productId?.toString())
+            if (item.length) {
+              this.removeCartData=item[0];
+              this.removeCart=true;
+            }           
+        })
       }
     })
   }
@@ -70,7 +84,9 @@ export class ProductDetailsComponent implements OnInit {
         this.ps.addToCart(cartData).subscribe((result)=>{
           // console.warn(result);
           if (result) {
-            alert("Product is added in cart.");          
+            // alert("Product is added in cart."); 
+            this.ps.getCartList(userId);
+            this.removeCart=true;           
           }
         })       
       }
@@ -78,7 +94,24 @@ export class ProductDetailsComponent implements OnInit {
   }
 
   removeToCart(productId:number){
-    this.ps.removeItemFromCart(productId);
-    this.removeCart=false;
+
+    let user = localStorage.getItem('user');
+    let userId = user && JSON.parse(user).id;
+
+    if (!localStorage.getItem('user')) {
+      this.ps.removeItemFromCart(productId);
+      this.removeCart=false;
+    }
+    else{
+      
+      // console.warn(this.removeCartData);
+      this.removeCartData && this.ps.removeToCart(this.removeCartData.id)
+      .subscribe((result)=>{
+        if (result) {
+          this.ps.getCartList(userId.toString);
+        }
+      })
+    }
+    
   }
 }

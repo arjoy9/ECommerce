@@ -88,6 +88,102 @@
   ],
   "cart": [
     {
+      "name": "IPhone 14",
+      "price": "60000",
+      "color": "Blue",
+      "category": "Mobiles",
+      "description": "Latest phone for youth",
+      "image": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Purple-6116.jpg",
+      "quantity": 5,
+      "userId": 1,
+      "productId": 1,
+      "id": 4
+    },
+    {
+      "name": "realme 10 pro",
+      "price": "100000",
+      "color": "Sky Blue",
+      "category": "Mobile",
+      "description": "Good",
+      "image": "https://www.gizmochina.com/wp-content/uploads/2022/11/Realme-10-China-Telecom.png",
+      "quantity": 5,
+      "productId": 2,
+      "userId": null,
+      "id": 6
+    },
+    {
+      "name": "hp elitebook",
+      "price": "80000",
+      "color": "White",
+      "category": "Laptop",
+      "description": "Good",
+      "image": "https://www.pngitem.com/pimgs/m/13-132423_hp-elitebook-x360-1030-g3-hd-png-download.png",
+      "quantity": 1,
+      "productId": 3,
+      "userId": null,
+      "id": 7
+    },
+    {
+      "name": "IPhone 14",
+      "price": "60000",
+      "color": "Blue",
+      "category": "Mobiles",
+      "description": "Latest phone for youth",
+      "image": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Purple-6116.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 1,
+      "id": 9
+    },
+    {
+      "name": "IPhone 14",
+      "price": "60000",
+      "color": "Blue",
+      "category": "Mobiles",
+      "description": "Latest phone for youth",
+      "image": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Purple-6116.jpg",
+      "quantity": 5,
+      "userId": 1,
+      "productId": 1,
+      "id": 10
+    },
+    {
+      "name": "IPhone 14",
+      "price": "60000",
+      "color": "Blue",
+      "category": "Mobiles",
+      "description": "Latest phone for youth",
+      "image": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Purple-6116.jpg",
+      "quantity": 5,
+      "userId": 3,
+      "productId": 1,
+      "id": 11
+    },
+    {
+      "name": "realme 10 pro",
+      "price": "100000",
+      "color": "Sky Blue",
+      "category": "Mobile",
+      "description": "Good",
+      "image": "https://www.gizmochina.com/wp-content/uploads/2022/11/Realme-10-China-Telecom.png",
+      "quantity": 2,
+      "userId": 3,
+      "productId": 2,
+      "id": 12
+    },
+    {
+      "name": "hp elitebook",
+      "price": "80000",
+      "color": "White",
+      "category": "Laptop",
+      "description": "Good",
+      "image": "https://www.pngitem.com/pimgs/m/13-132423_hp-elitebook-x360-1030-g3-hd-png-download.png",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 3,
+      "id": 13
+    },
+    {
       "name": "HP Dragonfly Folio 13.5",
       "price": "100000",
       "color": "White",
@@ -95,9 +191,33 @@
       "description": "Awesome",
       "image": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08281209.png?imwidth=270&imdensity=1",
       "quantity": 1,
-      "userId": 1,
+      "userId": 3,
       "productId": 5,
-      "id": 1
+      "id": 14
+    },
+    {
+      "name": "IPhone 14",
+      "price": "60000",
+      "color": "Blue",
+      "category": "Mobiles",
+      "description": "Latest phone for youth",
+      "image": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-14-Purple-6116.jpg",
+      "quantity": 3,
+      "userId": 3,
+      "productId": 1,
+      "id": 15
+    },
+    {
+      "name": "hp elitebook",
+      "price": "80000",
+      "color": "White",
+      "category": "Laptop",
+      "description": "Good",
+      "image": "https://www.pngitem.com/pimgs/m/13-132423_hp-elitebook-x360-1030-g3-hd-png-download.png",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 3,
+      "id": 16
     }
   ]
 }
