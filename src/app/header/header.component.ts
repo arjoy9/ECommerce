@@ -36,6 +36,7 @@ export class HeaderComponent implements OnInit {
           let userData = userStore && JSON.parse(userStore);
           this.userName=userData.name;
           this.menuType='user'
+          this.ps.getCartList(userData.id);
 
         }
         else{
@@ -80,12 +81,10 @@ export class HeaderComponent implements OnInit {
   hideSearch(){
     this.searchResult=undefined;
   }
-
   submitSearch(val:string){
     // console.warn(val);
     this.route.navigate([`search/${val}`])
   }
-
   redirectToDetails(id:number){
     this.route.navigate(['/details/' + id])
   }
